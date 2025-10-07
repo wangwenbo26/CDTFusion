@@ -1,8 +1,7 @@
 # CDTFusion
-# README
 
 ## Dataset
-The dataset is organized in the following hierarchical structure:
+The dataset is organized in the following structure:
 ```
 datasets/
 ├── fmb/
@@ -35,20 +34,20 @@ To train the models for each dataset, use the following commands:
 
 For FMB dataset:
 ```bash
-python fmb/train_step1.py
-python fmb/train_step2.py
+python fmb_train_step1.py
+python fmb_train_step2.py
 ```
 
 For POS dataset:
 ```bash
-python pos/train_step1.py
-python pos/train_step2.py
+python pos_train_step1.py
+python pos_train_step2.py
 ```
 
 For WHU dataset:
 ```bash
-python whu/train_step1.py
-python whu/train_step2.py
+python whu_train_step1.py
+python whu_train_step2.py
 ```
 
 ## Testing
@@ -56,15 +55,15 @@ To test the trained models, use the following commands:
 
 For FMB dataset:
 ```bash
-python fmb/test.py
+python fmb_test.py
 ```
 
 For POS dataset:
 ```bash
-python pos/test.py
+python pos_test.py
 ```
 
 For WHU dataset:
 ```bash
-python whu/test.py
+python whu_test.py
 ```
