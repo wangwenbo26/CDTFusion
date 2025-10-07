@@ -7,7 +7,7 @@ datasets/
 ├── fmb/
 │   ├── test/
 │   │   ├── ir/      # Infrared images
-│   │   ├── lbl/     # Label images
+│   │   ├── lbl/     # Segmentation ground truth
 │   │   └── vi/      # Visible images
 │   └── train/
 │       ├── ir/
